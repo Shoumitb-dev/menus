@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+.navbar1{
+   font-family: arial;
+   text-align: center;
+   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */)
+    }
+    .navbar1 ul li {
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+   }
+   
+   .navbar1 ul li a {
+      text-decoration: none;
+      color: rgb(19, 12, 116);
+      padding: 15px 25px;
+      display: block;
+   }
+   
+   .navbar1 ul li::before {
+      content: "";
+      width: 50%;
+      height: 0%;
+      background-color: rgb(234, 223, 223);
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      z-index: -1;
+      transition: 300ms;
+   }
+   
+   .navbar1 ul li:hover::before {
+      height: 100%;
+   }
+   
+   .navbar1 ul li::after {
+      content: "";
+      width: 50%;
+      height: 0%;
+      background-color: hsl(180, 15%, 92%);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: -1;
+      transition: 300ms;
+   }
+   
+   .navbar1 ul li:hover::after {
+      height: 100%;
+   }
+   .navbar2{
+      font-family: arial;
+      text-align: center;
+      background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+   .navbar2 ul li{
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+   }
+   .navbar2 ul li a {
+      text-decoration: none;
+      color: black;
+      padding: 15px 25px;
+      display: block;
+   }
+   .navbar2 ul li::before {
+      content: "";
+      width: 0%;
+      height: 50%;
+      background-color: #f7fdff;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      z-index: -1;
+      transition: 300ms;
+      
+  }
+  
+  .navbar2 ul li:hover::before {
+      width: 100%;
+  }
+  
+  .navbar2 ul li::after {
+      content: "";
+      width: 0%;
+      height: 50%;
+      background-color: #f7fdff;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: -1;
+      transition: 300ms;
+  }
+  
+  .navbar2 ul li:hover::after {
+      width: 100%;
+   }
+   .navbar3{
+      font-family: arial;
+      text-align: center;
+      background: linear-gradient(to right, #5f2c82, #49a09d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+   .navbar3 ul li{
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+   }
+   .navbar3 ul li a {
+      text-decoration: none;
+      color: black;
+      padding: 15px 25px;
+      display: block;
+   }
+   .navbar3 ul li::before {
+      content: "";
+      width: 0%;
+      height: 100%;
+      background-color: #efe9e9;
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      z-index: -1;
+      transition: 300ms;
+   }
+   .navbar3 ul li:hover::before {
+      width: 50%;
+   }
+   .navbar3 ul li::after {
+      content: "";
+      width: 0%;
+      height: 100%;
+      background-color: #efe9e9;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: -1;
+      transition: 300ms;
+  }
+  .navbar3 ul li:hover::after {
+   width: 50%;
+}
+.navbar4{
+   font-family: arial;
+   text-align: center;
+   background: linear-gradient(to left, #360033, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar4 ul li {
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+}
+
+.navbar4 ul li a {
+   text-decoration: none;
+   color: black;
+   padding: 15px 25px;
+   display: block;
+}
+.navbar4 ul li::before {
+   content: "";
+   width: 100%;
+   height: 0%;
+   background-color: #f0ece9;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: -1;
+   transition: 300ms;
+}
+.navbar4 ul li:hover::before {
+   height: 100%;}
+   
+  
+
+
+
+
+
+
+
+
